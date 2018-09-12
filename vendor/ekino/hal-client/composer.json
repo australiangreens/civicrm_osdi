@@ -1,0 +1,29 @@
+{
+    "name": "ekino/hal-client",
+    "description": "HalClient",
+    "keywords": ["hal", "Hypermedia"],
+    "homepage": "https://github.com/ekino/php-hal-client",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Rabaix",
+            "email": "thomas.rabaix@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzle/parser": "~3.9",
+        "doctrine/collections": "~1.2"
+    },
+    "require-dev": {
+        "jms/serializer": "~0.16",
+        "doctrine/collections": "~1.2"
+    },
+    "suggest": {
+        "jms/serializer": "Enable support of Resource Deserialization"
+    },
+    "autoload": {
+        "psr-4": { "Ekino\\HalClient\\": "lib" }
+    }
+}
